@@ -1,0 +1,114 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{geometry}
+\geometry{top=0.38in, bottom=0.38in, left=0.45in, right=0.45in}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=blue]{hyperref}
+\usepackage{multicol}
+\usepackage{fontawesome5}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{label=\tiny$\bullet$,itemsep=0pt, topsep=0.5pt, parsep=0pt, partopsep=0pt}
+
+\titlespacing{\section}{1pt}{1.5pt}{1.5pt}
+\titleformat{\section}{\bfseries\large}{}{0em}{}[\titlerule]
+
+\begin{document}
+\pagenumbering{gobble}
+
+\begin{center}
+{\Large \textbf{Mayank Rajendra Bhagat}}\\[2pt]
+\small
+\faMapMarker* \ 161, Manohar Vihar Colony, Nagpur, Maharashtra 440007\\[2pt]
+\faEnvelope\ \href{mailto:bhagatmayank2005@gmail.com}{bhagatmayank2005@gmail.com} \quad
+\faPhone\ \href{tel:9766253704}{9766253704} \quad
+\faGlobe\ \href{https://mayankbhagat.in/}{mayankbhagat.in} \quad
+\faLinkedin\ \href{https://www.linkedin.com/in/mayank-bhagat-8a548b276/}{LinkedIn} \quad
+\faGithub\ \href{https://github.com/mayankbhagat}{GitHub}
+\end{center}
+
+\section*{Education}
+
+\textbf{VIT Bhopal University} \hfill 2023 -- 2027 \\
+Bachelor of Technology in Computer Science and Engineering, AI/ML \hfill CGPA: \textbf{8.52}
+
+%-----------------------------------------
+
+
+%-----------------------------------------
+\section*{Experience}
+
+\textbf{Infosys Springboard} \hfill Nov 2025 -- Jan 2026 \\
+\textit{Machine Learning Intern} \quad
+\href{https://huggingface.co/spaces/mayankbhagat/Cliniscan}{Live Demo}
+\begin{itemize}[leftmargin=*]
+\item Spearheaded a \textbf{team of 5} to build \textbf{CliniScan}, an AI-based lung abnormality detection system deployed for radiologists and clinicians.
+\item Constructed a multi-label chest X-ray diagnostic workflow using \textbf{EfficientNet-B0 CNN} with BCEWithLogitsLoss and Adam optimizer on \textbf{18,000+ VinBigData DICOM images} annotated by certified radiologists.
+\item Delivered clinical benchmarks: \textbf{Macro F1 = 0.85}, \textbf{Micro F1 = 0.89}, \textbf{Sensitivity = 0.88}, \textbf{Specificity = 0.88}, \textbf{Macro AUC-ROC = 0.92}.
+\item Executed lesion localization via \textbf{YOLOv8 (Ultralytics)} at \textbf{1024×1024} resolution, attaining \textbf{mAP@0.5 = 0.84} and \textbf{mAP@0.5:0.95 = 0.78}.
+\item Embedded \textbf{Grad-CAM visualization} and launched a live inference endpoint on \textbf{Hugging Face Spaces} targeting clinical end-users.
+\end{itemize}
+
+\textbf{IBM India Pvt. Ltd.} \hfill May 2025 -- Jul 2025 \\
+\textit{Summer Industrial Internship – Generative AI} \quad
+\href{https://github.com/mayankbhagat/Medical_chatbot}{GitHub}
+\begin{itemize}[leftmargin=*]
+\item Architected enterprise-grade Generative AI workflows on \textbf{IBM Watsonx.ai} and IBM Cloud, boosting model output reliability by \textbf{27\%}.
+\item Refined RAG workflows by integrating LLMs with improved embedding selection and re-ranking, raising document fetch precision by \textbf{18\%}.
+\item Crafted custom prompt templates and tuned context windows, slashing token usage by \textbf{22\%} and average latency by \textbf{15\%}.
+\item Shipped \textbf{MediBot}, an AI-powered medical triage chatbot via transformer-based classification and RAG, achieving \textbf{92\%+ routing precision} and F1 score of \textbf{0.91}.
+\end{itemize}
+
+
+%-----------------------------------------
+\section*{Projects}
+
+\textbf{SmartOps — Agentic AI Business Automation Platform} \quad
+\href{https://github.com/mayankbhagat/smartops}{GitHub} \quad
+\href{https://smartops-xuqr.vercel.app/}{Live Demo} \hfill Mar 2026
+\begin{itemize}[leftmargin=*]
+\item Developed an \textbf{agentic AI} platform automating \textbf{5+ business workflows} (logistics, inventory, forecasting, routing, decisions) using \textbf{multi-agent architecture} and \textbf{LLM-based reasoning}, cutting manual operational overhead by \textbf{40\%}.
+\item Designed \textbf{4 specialized autonomous agents} (Inventory, Logistics, Decision, Assistant) with a modular analytics engine achieving \textbf{87\%+ demand forecast precision} across \textbf{3 inventory segments}.
+\item Deployed multi-modal route planning across transport modes, trimming estimated delivery costs by \textbf{30\%} and carbon emissions by \textbf{25\%} through market-aware stock suggestions.
+\end{itemize}
+
+\textbf{AI Lawyer — RAG Legal Assistant} \quad
+\href{https://github.com/mayankbhagat/AI-Lawyer-RAG}{GitHub} \quad
+\href{https://legallaw-ai.streamlit.app/}{Live Demo} \hfill Jul 2025
+\begin{itemize}[leftmargin=*]
+\item Assembled a legal assistant leveraging \textbf{LangChain}, \textbf{FAISS} vector store, and custom embeddings on Hugging Face LLMs, hitting \textbf{85\%+ clause retrieval score} via dense vector search.
+\item Orchestrated a memory-augmented retrieval-generation workflow, lowering hallucination rate in context-aware legal interactions by \textbf{20\%}.
+\end{itemize}
+
+\textbf{PIPO – AI-Based Voice Assistant} \quad
+\href{https://github.com/mayankbhagat/PIPO-AI-VOICE-ASSISTTANT.git}{GitHub} \hfill Feb 2025 -- Apr 2025
+\begin{itemize}[leftmargin=*]
+\item Built a multilingual voice assistant for real-time task automation with \textbf{ASR} and \textbf{TTS} modules, attaining \textbf{<1.2s} response latency and \textbf{92\% command recognition accuracy}.
+\item Fused a multimodal NLP stack (\textbf{BERT, SpaCy, GPT-2}) for intent inference across \textbf{10+ command categories} supporting system-level operations.
+\item \textit{\faFileText\ Publication:} M. R. Bhagat et al., ``PIPO: AI-Based Voice Assistant,'' \textbf{IEEE Global AI Summit 2025}, Noida, pp.\ 969--974.\ \href{https://ieeexplore.ieee.org/document/11411619}{doi: 10.1109/AISummit66170.2025.11411619}
+\end{itemize}
+
+
+\section*{Technical Skills}
+\textbf{Languages:} Python, C++, SQL, HTML, CSS \hfill
+\textbf{Cloud/MLOps:} AWS, IBM Cloud, Microsoft Azure, Docker, CI/CD\\
+\textbf{ML/DL Frameworks:} TensorFlow, PyTorch, Keras, Scikit-learn, Neural Networks, EfficientNet, YOLO\\
+\textbf{LLM/NLP:} LangChain, RAG, FAISS, Hugging Face Transformers, Prompt Engineering, NLTK, ML Models\\
+\textbf{Tools:} Git, Streamlit, OpenCV, Pandas, NumPy, Grad-CAM, pyttsx3, SpeechRecognition
+%-----------------------------------------
+\section*{Achievements \& Certifications}
+
+\textbf{Economic Times GenAI Hackathon — Finalist} \hfill Top 40 teams among \textbf{54,000+} participants \\
+Conceptualised \textit{AI Money Mentor}, a Generative AI-powered personal finance assistant for intelligent money management.\\[1pt]
+\textbf{Smart India Hackathon (SIH) 2025 — Internal Round Finalist} \hfill Top 45 among \textbf{950+} teams \\
+Led a team of 6; Problem SIH25045 — \textit{CropSure (Agritech-based Yield Monitoring Solution)}\\[2pt]
+\href{https://drive.google.com/file/d/1nJgje4vZxcNtsqLTKuxIoYp7DiF-zvzB/view}{\textbf{IBM Cloud Certification}} \quad
+\href{https://drive.google.com/file/d/1SBtQgRox6sEIGRugTdNBI5toU2U0P_uY/view}{\textbf{Microsoft Azure DP-900}} \quad
+\href{https://drive.google.com/file/d/18-BCNgeCV2zP9asABbYR7Ii_LlSqTMuU/view?usp=drive_link}{\textbf{Applied Machine Learning }} \\[2pt]
+\textbf{Toastmasters International District 98} — Core Member
+
+%-----------------------------------------
+
+
+\end{document}
+```
