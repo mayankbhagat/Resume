@@ -7,7 +7,7 @@ This repository contains the latest version of my professional resume in both **
 ## 📄 Files
 
 - **Resume_M.pdf** – Latest resume (recommended for recruiters and hiring managers)
-- **Resume_M.tex** – LaTeX source code used to generate the resume
+- **main.tex** – LaTeX source code used to generate the resume
 
 ---
 
